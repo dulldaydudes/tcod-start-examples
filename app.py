@@ -37,7 +37,7 @@ def main():
     while not tcod.event == tcod.event.Quit:
         # clear everything
         console.clear()
-        #
+        # Honour to whom honour is due
         if not credits_end:
             credits_end = tcod.console_credits_render(
                 constants['credit_x_pos'],
